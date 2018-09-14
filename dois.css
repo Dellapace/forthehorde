@@ -1,0 +1,62 @@
+@font-face {
+  font-family: fontana;
+  src: url("Seagram tfb.ttf");
+}
+
+#c1{
+    float:auto;
+    margin-top:2.5%
+}
+#c2{
+    float:left;
+    margin-top:2.5%;
+    margin-left:5
+}
+#c3{
+    float:right;
+    margin-top:2.5%
+}
+
+.sidenav {
+    height: 100%;
+    width: 1200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    text-align: center;
+
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+img {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
